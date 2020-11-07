@@ -1,7 +1,7 @@
 {
-  "name": "react-highlightable-spreadsheet",
+  "name": "react-highlightable-datasheet",
   "version": "0.1.0",
-  "description": "Highligtable Excel-like data grid for React",
+  "description": "Highlightable excel-like data grid for React",
   "repository": {
     "type": "git",
     "url": "https://github.com/Julrum/react-highlightable-spreadsheet"
@@ -15,6 +15,9 @@
     "react-component",
     "react"
   ],
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -34,6 +37,11 @@
     "react-virtualized-auto-sizer": "^1.0.2",
     "react-window-infinite-loader": "^1.0.5",
     "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.13.0"
   },
   "scripts": {
     "start": "react-scripts start",
