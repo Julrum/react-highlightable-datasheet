@@ -1,6 +1,6 @@
 {
   "name": "react-highlightable-datasheet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Highlightable excel-like data grid for React",
   "repository": {
     "type": "git",
