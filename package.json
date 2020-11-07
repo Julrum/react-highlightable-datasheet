@@ -1,7 +1,20 @@
 {
   "name": "react-highlightable-spreadsheet",
   "version": "0.1.0",
-  "private": true,
+  "description": "Highligtable Excel-like data grid for React",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Julrum/react-highlightable-spreadsheet"
+  },
+  "author": "Julrum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Julrum/react-highlightable-spreadsheet/issues"
+  },
+  "keywords": [
+    "react-component",
+    "react"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
